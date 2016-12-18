@@ -105,7 +105,6 @@
     float: right;
     font-size: 40px;
     font-weight: bold; 
-    background-color: #42f48c;
     margin-top: 10px;
 }
 
@@ -144,7 +143,7 @@
 
             <div class='modal-content'>
                              <div class='modal-header'>
-                                 <span onclick='cl()' class='close'>OK</span>
+                                 <span onclick='cl()' class='close' style="border: 2px; border-color: black">OK</span>
                                       <h2>Search location and click OK</h2>
                                       <h4 style="color: red">Note : If map dosen't load propery Click <a href="javascript:;" onclick="ref()">here</a>!   (Click on location to select or Drag marker to position.)</h4></div>
                                                <div class='modal-body'>
